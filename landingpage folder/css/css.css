@@ -1,0 +1,90 @@
+body, html{
+  margin: 0;
+  height: 100%;
+  
+}
+
+.header{
+  background-color: #232323;
+  text-align: center;
+  padding: 0px;
+  width: 100%;
+  height: 130px;
+}
+
+.header h3 {
+  color: #D9BB62;
+  font-size: 100px;
+  line-height: 115px;
+  margin: 0;
+  font-family: "Akkordeon Five";
+  letter-spacing: 3px;
+  
+}
+
+.burger-menu {
+  position: absolute;
+  top: 7%;
+  right: 50px;
+  transform: translateY(-60%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+
+.line {
+  display: block;
+  width: 50px;
+  height: 4px;
+  background-color: #D9BB62;
+  margin: 10px 0;
+}
+
+.line:nth-child(1) {
+  width: 35px;
+}
+
+.video-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  height: calc(100vh - 130px);
+  justify-content: space-around;
+  margin: 0;
+}
+
+.video-box {
+  flex: 1 0 18%; /* Adjust to control the number of boxes per row */
+  margin: 0px; /* Adjust spacing between boxes */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 0px;
+  width: fit-content;
+  position: relative;
+  cursor: pointer;
+  
+
+}
+
+.video-box h4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  color: #D9BB62;
+  z-index: 1;
+  font-size: 80px;
+  font-family: "Akkordeon Five";
+  letter-spacing: 2px;
+}
+
+.video-box iframe,
+.video-box video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;}
