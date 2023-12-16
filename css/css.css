@@ -1,0 +1,98 @@
+/* Default styles for all screen sizes*/
+
+/* Media query for smartphones */
+@media only screen and (max-width: 768px) {
+  /* Styles specific to smartphones */
+}
+
+/* Media query for desktops */
+@media only screen and (min-width: 769px) {
+  /* Styles specific to desktops */
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.full-screen-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+.full-screen-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  object-fit: cover; 
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  transform: translate(-0%, -158%);
+  
+}
+.header {
+  font-family: "Akkordeon Five";
+  letter-spacing: 20px;
+  font-size: 450px;
+  color: #D9BB62;
+  text-align: center;
+  margin: 0;
+  z-index: 1;
+  text-align: center;
+  
+  
+}
+.logo {
+  font-size: 75px;
+  color: black;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  transform: translate(1%, -595%);
+  font-family: "Charmonman";
+  
+}
+.presents {
+  font-size: 60px;
+  color: black;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  transform: translate(1%, -815%);
+  font-family: "Charmonman";
+
+}
+.italy {
+  font-size: 100px;
+  color: #D9BB62;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  transform: translate(1%, -360%);
+  font-family: "Akkordeon Five";
+  letter-spacing: 10px;
+  
+
+}
+
+.button {
+  cursor: pointer;
+  text-decoration: none;
+}
+
