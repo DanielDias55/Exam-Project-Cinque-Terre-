@@ -5,7 +5,7 @@
 console.log('Success: JavaScript from js/js.js running!')
 
 function closePage() {
-    window.location.href = "landingpage.html";
+    window.location.href = "/landingpage/landingpage.html";
 }
 
 const buttonIds = ['button', 'button2', 'button3', 'button4', 'button5', 'button6'];
@@ -15,13 +15,13 @@ const circleIds = ['circle', 'circle2', 'circle3', 'circle4', 'circle5', 'circle
 buttonIds.forEach(function(buttonId) {
   const button = document.getElementById(buttonId);
   button.addEventListener('click', function() {
-    window.location.href = 'error404.html'; 
+    window.location.href = '/error404 folder/error404.html'; 
   });
 });
 
 circleIds.forEach(function(circleId) {
     const circle = document.getElementById(circleId);
     circle.addEventListener('click', function() {
-      window.location.href = 'error404.html';
+      window.location.href = '/error404 folder/error404.html';
     });
   });

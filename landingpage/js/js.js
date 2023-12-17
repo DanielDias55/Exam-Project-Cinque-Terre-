@@ -6,7 +6,7 @@ console.log('Success: JavaScript from js/js.js running!')
 
 
 function toggleMenu() {
-    window.location.href = "error404.html";
+    window.location.href = "/error404 folder/error404.html";
 }
   
 
